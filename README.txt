@@ -1,7 +1,5 @@
-# BeanCompiler
-Compiler for Bean, written in OCaml
 
-# File specs
+With this README file you should also have found these:
 
 Makefile:  
     A makefile for the COMP90045 project 2016

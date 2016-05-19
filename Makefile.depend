@@ -1,15 +1,24 @@
-sprout.cmo :
-sprout.cmx :
-sprout_ast.cmi :
-sprout_parse.cmi : sprout_ast.cmi
-sprout_pprint.cmi :
-sprout_ast.cmo : sprout_ast.cmi
-sprout_ast.cmx : sprout_ast.cmi
-sprout_lex.cmo : sprout_parse.cmi
-sprout_lex.cmx : sprout_parse.cmx
-sprout_parse.cmo : sprout_ast.cmi sprout_parse.cmi
-sprout_parse.cmx : sprout_ast.cmx sprout_parse.cmi
-sprout_pprint.cmo : sprout_pprint.cmi
-sprout_pprint.cmx : sprout_pprint.cmi
-sprout.cmo :
-sprout.cmx :
+bean.cmo :
+bean.cmx :
+bean_ast.cmi :
+bean_parse.cmi : bean_ast.cmi
+bean_pprint.cmi :
+codegen.cmi :
+bean_analyze.cmi :
+symbol.cmi :
+codegen.cmo : codegen.cmi
+codegen.cmx : codegen.cmi
+symbol.cmo : symbol.cmi
+symbol.cmx : symbol.cmi
+bean_analyze.cmo : bean_analyze.cmi
+bean_analyze.cmx : bean_analyze.cmi
+bean_ast.cmo : bean_ast.cmi
+bean_ast.cmx : bean_ast.cmi
+bean_lex.cmo : bean_parse.cmi
+bean_lex.cmx : bean_parse.cmx
+bean_parse.cmo : bean_ast.cmi bean_parse.cmi
+bean_parse.cmx : bean_ast.cmx bean_parse.cmi
+bean_pprint.cmo : bean_pprint.cmi
+bean_pprint.cmx : bean_pprint.cmi
+bean.cmo :
+bean.cmx :

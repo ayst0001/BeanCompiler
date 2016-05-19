@@ -1,1 +1,49 @@
-#www
+typedef { _et: int } abc
+typedef { f_a: int, fb:{ga:bool, gb:bool} } a_rec
+typedef { used: bool, rec : a_rec } b_rec
+typedef { _et: int } abc
+typedef { _et: int } abc
+
+#typedef {
+#f1 : int, f2 :
+#{ g1 : bool, g2 : bool}
+#} a_record
+
+
+proc a(val ed dww, ref int s'd)
+if 1 then read x; fi
+end
+
+proc q ( val bool x
+, ref b_record k
+)
+int n; bool y;
+a_record z;
+z.fa := 42;
+z.fb := { ga = true,
+gb = false };
+end
+
+proc p (ref int i)
+i:=6*i + 4; end
+
+proc main ()
+int m;
+int n;
+read n;
+while n>1 do
+m := n;
+while m>0 do
+if m>0 then
+n := n - 1;
+m := m - 1;
+if m=0 then p(n); fi
+else m := n - m;
+m := m - 1 ;
+fi od od
+end
+
+proc test()
+int x;
+if x>0 then x:=1; else x:=-1;fi
+end
